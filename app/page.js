@@ -41,8 +41,8 @@ export default async function Home() {
         </div>
       <Button /> */}
 
-      {/* testing ISR topic */}
-      {JSON.stringify(new Date().toLocaleDateString())}
+      {/* testing ISR topic (test after build) */}
+      {JSON.stringify(new Date().toLocaleTimeString())}
     </main>
   );
 }
